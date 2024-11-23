@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import { getAuthToken } from "../utils/common.js";
+import { getAuthToken } from "../Utils/common";
 
 const UserContext = createContext();
 
