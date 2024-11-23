@@ -1,8 +1,28 @@
-# React + Vite
+## Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To get started with this project locally, follow below steps:
 
-Currently, two official plugins are available:
+### Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have package manager (npm)
+
+### Installation
+
+Below steps will guide you through the local installation process of this application
+
+1. Clone the repo
+   ```
+   git clone https://github.com/ArifDev99/RBAS-system.git
+   ```
+2. Install project dependency<br />
+Make sure that your terminal pointing at the root directory of this project.
+   ```
+    npm install
+   ```
+3. Now run the project<br />
+Make sure that your terminal pointing at the root directory of this project.
+   ```
+    npm run dev
+   ```
+4. For checking you can login with email - admin@gmail.com  and password - Admin123 . Then go to dashborad from navbar .
+
