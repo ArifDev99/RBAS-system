@@ -25,4 +25,5 @@ Make sure that your terminal pointing at the root directory of this project.
     npm run dev
    ```
 4. For checking you can login with email - admin@gmail.com  and password - Admin123 . Then go to dashborad from navbar .
+5. For cheking employee role login with email- arifrahamancob@gmail.com password- Arif123 .
 
