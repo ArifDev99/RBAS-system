@@ -30,7 +30,7 @@ const Header = () => {
                 RBAC-system
             </div>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8  md:mt-0 md:border-0 md:bg-white ">
+            <ul className="font-medium flex flex-col items-center text-black py-4 px-2 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8  md:mt-0 md:border-0  ">
               <li>
               {menu.map((item,i)=>{
                 return <NavLink key={i} className="px-2 text-black" to={item.path}>{item.displayName}</NavLink>
@@ -38,9 +38,9 @@ const Header = () => {
               </li>
               
               {userInfo ?
-                <button onClick={handelLogout} >Logout </button> 
+                <button className="bg-purple-500 px-4 py-2.5 rounded-md" onClick={handelLogout} >Logout </button> 
                 :
-                <button>  <NavLink to="/login" className='text-white' >Login</NavLink></button>
+                <button className="bg-purple-500 px-4 py-2.5 rounded-md">  <NavLink to="/login" className='text-white' >Login</NavLink></button>
              }
 
             </ul>

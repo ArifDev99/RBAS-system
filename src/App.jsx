@@ -13,7 +13,11 @@ function App() {
       <UserProvider>
         <Header />
         <Routes>
-          <Route path={ROUTES.HOME} element={<Home />} />
+          <Route path={ROUTES.HOME} element={
+            <PrivateRoute allowedRoles={['EMPLOYEE', 'ADMIN','MANAGER','ENGINEER','SPECIALIST']}>
+              <Home />
+            </PrivateRoute>
+            } />
           <Route
             path={ROUTES.DASHBOARD}
             element={
